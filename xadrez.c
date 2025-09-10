@@ -28,5 +28,21 @@ int main() {
         j++;
     }
 
+    // 
+    // Rainha - usando DO...WHILE
+    // 
+    printf("\n=== Movimentação da Rainha (DO...WHILE) ===\n");
+    int k = 1;
+    do {
+        // Rainha se move apenas para a esquerda
+        printf("Passo %d: ESQUERDA\n", k);
+        k++;
+    } while (k <= RAINHA_MOV);
+
+    // Finalização do programa
+    printf("\n=== Fim da Simulação ===\n");
+
+    return 0;
+}
 
 
