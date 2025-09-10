@@ -17,6 +17,16 @@ int main() {
         printf("Passo %d: CIMA + DIREITA\n", i);
     }
 
-    
+     // 
+    // Torre - usando WHILE
+    // 
+    printf("\n=== Movimentação da Torre (WHILE) ===\n");
+    int j = 1;
+    while (j <= TORRE_MOV) {
+        // Torre se move apenas para a direita
+        printf("Passo %d: DIREITA\n", j);
+        j++;
+    }
+
 
 
